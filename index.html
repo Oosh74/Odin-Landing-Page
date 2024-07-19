@@ -1,43 +1,45 @@
 <!DOCTYPE html>
 <html lang="en">
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Odin Landing Page Project</title>
-  <link rel="stylesheet" href="style.css" />
-  <link rel="preconnect" href="https://fonts.googleapis.com" />
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link
-    href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
-    rel="stylesheet"
-  />
-  <link
-    rel="preload"
-    href="/fonts/roboto-v30-latin-300.woff2 "
-    as="font"
-    type="font/woff2"
-    crossorigin
-  />
-  <link
-    rel="preload"
-    href="/fonts/roboto-v30-latin-300italic.woff2 "
-    as="font"
-    type="font/woff2"
-    crossorigin
-  />
-  <link
-    rel="preload"
-    href="/fonts/roboto-v30-latin-900.woff2 "
-    as="font"
-    type="font/woff2"
-    crossorigin
-  />
-  <link
-    rel="preload"
-    href="/fonts/roboto-v30-latin-regular.woff2 "
-    as="font"
-    type="font/woff2"
-    crossorigin
-  />
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Odin Landing Page Project</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="preload"
+      href="/fonts/roboto-v30-latin-300.woff2 "
+      as="font"
+      type="font/woff2"
+      crossorigin
+    />
+    <link
+      rel="preload"
+      href="/fonts/roboto-v30-latin-300italic.woff2 "
+      as="font"
+      type="font/woff2"
+      crossorigin
+    />
+    <link
+      rel="preload"
+      href="/fonts/roboto-v30-latin-900.woff2 "
+      as="font"
+      type="font/woff2"
+      crossorigin
+    />
+    <link
+      rel="preload"
+      href="/fonts/roboto-v30-latin-regular.woff2 "
+      as="font"
+      type="font/woff2"
+      crossorigin
+    />
+  </head>
 
   <body>
     <nav class="navbar">
@@ -48,7 +50,7 @@
         <li class="link">Link 3</li>
       </ul>
     </nav>
-    <header class="layout">
+    <header class="hero section">
       <div class="hero-text-container">
         <h1>This website is awesome</h1>
         <p>
@@ -57,8 +59,66 @@
         </p>
         <button>Sign up</button>
       </div>
-      <div class="hero-img-container"><img /> An Image will go here</div>
+      <div class="hero-img-container">
+        <img src="./images/gorgeous-picture-of-gallery-pixabay-2150 (1).webp" />
+      </div>
     </header>
-    <h1>Hello, world!</h1>
+    <section class="section info">
+      <h2>Some random information.</h2>
+      <div class="card-container">
+        <div class="card">
+          <img
+            src="./images/gorgeous-picture-of-gallery-pixabay-2150 (1).webp"
+          />
+          <p>Some subtext added here</p>
+        </div>
+        <div class="card">
+          <img
+            src="./images/gorgeous-picture-of-gallery-pixabay-2150 (1).webp"
+          />
+          <p>
+            Some subtext added here rfeerfer ferferf efer efeferfergrtgerg
+            rijgerigergjoirep erpjgregpergj ep
+          </p>
+        </div>
+        <div class="card">
+          <img
+            src="./images/gorgeous-picture-of-gallery-pixabay-2150 (1).webp"
+          />
+          <p>Some subtext added here</p>
+        </div>
+        <div class="card">
+          <img
+            src="./images/gorgeous-picture-of-gallery-pixabay-2150 (1).webp"
+          />
+          <p>Some subtext added here</p>
+        </div>
+      </div>
+    </section>
+    <section class="section quote-section">
+      <div class="quote-block">
+        <p class="quote">
+          "It has been said that astronomy is a humbling and character-building
+          experience. There is perhaps no better demonstration of the folly of
+          human conceits than this distant image of our tiny world. To me, it
+          underscores our responsibility to deal more kindly with one another,
+          and to preserve and cherish the pale blue dot, the only home we've
+          ever known."
+        </p>
+        <p class="citation">
+          ― Carl Sagan, Pale Blue Dot: A Vision of the Human Future in Space
+        </p>
+      </div>
+    </section>
+    <section class="section cta-section">
+      <div class="call-to-action">
+        <div>
+          <p>Call to action time!</p>
+          <p>Do something right now!</p>
+        </div>
+        <div><button>Sign up</button></div>
+      </div>
+    </section>
+    <footer><p>Made by Jared for The Odin Project</p></footer>
   </body>
 </html>
