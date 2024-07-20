@@ -10,6 +10,7 @@
   padding: 0;
   font-family: 'Roboto';
   font-weight: 400;
+  border: 1px solid red;
 }
 
 body,
@@ -17,6 +18,7 @@ html {
   min-height: 100vh;
   display: flex;
   flex-direction: column;
+  scroll-behavior: smooth;
 }
 
 a {
@@ -70,12 +72,16 @@ button {
   src: url('./fonts/roboto-v30-latin-900.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
 }
 /*CSS Reset End*/
+.section {
+  padding: 80px 200px;
+}
 
 .navbar {
   display: flex;
   min-height: 75px;
   background-color: #1f2937;
-  padding: 0 160px 0 160px;
+  padding-top: 0px;
+  padding-bottom: 0px;
 }
 
 .navbar ul {
@@ -98,14 +104,12 @@ button {
   gap: 24px;
 }
 
-.section {
-  padding: 80px 160px;
-}
-
 .hero {
   display: flex;
   align-items: center;
   background-color: #1f2937;
+  padding-top: 10vw;
+  padding-bottom: 10vw;
 }
 
 .hero h1 {
@@ -130,6 +134,7 @@ button {
   flex-wrap: wrap;
   background-image: url('./images/gorgeous-picture-of-gallery-pixabay-2150\ \(1\).webp');
   background-size: cover;
+  background-position: center;
 }
 
 .hero-text-container p {
